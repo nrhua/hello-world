@@ -1,4 +1,4 @@
-@Library('jenny@develop') _
+@Library('jenny@nrh/test_version') _
 
 jennyPipeline{
     nodeConfigs = [
