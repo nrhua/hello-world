@@ -26,7 +26,7 @@ jennyPipeline{
         conanUploadRepo: 'conan-local',
         npmUploadRepo: 'npm-local-ksf',
         pythonUploadRepo: 'pypi-local-ksf',
-        sendSlackNotifications: '#site-atl-builds',
+        sendSlackNotifications: '#kosi-test',
         shouldPublish: true,
         updateKosiHub: true,
         runSonarQube: false,
