@@ -35,7 +35,7 @@ jennyPipeline{
     packageConfigs = [
         [
             conan: true,
-            dir: 'helloworld',
+            dir: '.',
             packageName: 'hello-jenkins', 
             testPackageDirectory: 'test/package',
             conanChannel: 'keysight/stable',
