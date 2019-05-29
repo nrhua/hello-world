@@ -29,7 +29,7 @@ jennyPipeline{
         sendSlackNotifications: '#kosi-test',
         shouldPublish: true,
         updateKosiHub: true,
-        runSonarQube: false,
+        runSonarQube: true,
         runBlackDuck: false
     ]
     packageConfigs = [
